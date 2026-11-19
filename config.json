@@ -1,9 +1,10 @@
 {
- "energyCap": 100,
- "energySeconds": 120,
+ "energyCap": 60,
+ "energySeconds": 200,
+ "tapCost": 5,
  "openNowPrice": 30,
  "refillPrice": 20,
- "refillEnergy": 100,
+ "refillEnergy": 60,
  "partPrice": 60,
  "orderCrystals": 3,
  "orderPoints": 10,
