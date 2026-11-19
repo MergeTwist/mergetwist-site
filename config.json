@@ -1,0 +1,227 @@
+{
+ "energyCap": 100,
+ "energySeconds": 120,
+ "openNowPrice": 30,
+ "refillPrice": 20,
+ "refillEnergy": 100,
+ "partPrice": 60,
+ "orderCrystals": 3,
+ "orderPoints": 10,
+ "packs": [
+  {
+   "product": "io.github.njall1.sixthgift.crystals50",
+   "crystals": 50
+  },
+  {
+   "product": "io.github.njall1.sixthgift.crystals275",
+   "crystals": 275
+  },
+  {
+   "product": "io.github.njall1.sixthgift.crystals575",
+   "crystals": 575,
+   "hit": true
+  },
+  {
+   "product": "io.github.njall1.sixthgift.crystals1200",
+   "crystals": 1200
+  },
+  {
+   "product": "io.github.njall1.sixthgift.crystals3250",
+   "crystals": 3250
+  }
+ ],
+ "offers": [
+  {
+   "id": "starter",
+   "product": "io.github.njall1.sixthgift.starter",
+   "trigger": "first_gate",
+   "hours": 48,
+   "once": true,
+   "reward": {
+    "crystals": 300,
+    "energy": 100
+   }
+  },
+  {
+   "id": "energy",
+   "product": "io.github.njall1.sixthgift.offer.energy",
+   "trigger": "energy_empty",
+   "reward": {
+    "crystals": 50,
+    "energy": 100
+   }
+  },
+  {
+   "id": "almost",
+   "product": "io.github.njall1.sixthgift.offer.almost",
+   "trigger": "vessel_4of5",
+   "part": true,
+   "reward": {
+    "energy": 100
+   }
+  },
+  {
+   "id": "week",
+   "product": "io.github.njall1.sixthgift.offer.week",
+   "trigger": "week_last_day",
+   "reward": {
+    "crystals": 100,
+    "energy": 150
+   }
+  }
+ ],
+ "weeks": [],
+ "pass": {
+  "product": "io.github.njall1.sixthgift.pass",
+  "steps": [
+   {
+    "points": 30,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 60,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 90,
+    "free": {
+     "energy": 30
+    },
+    "gold": {
+     "energy": 100,
+     "crystals": 20
+    }
+   },
+   {
+    "points": 120,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 150,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 180,
+    "free": {
+     "energy": 30
+    },
+    "gold": {
+     "energy": 100,
+     "crystals": 20
+    }
+   },
+   {
+    "points": 210,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 240,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 270,
+    "free": {
+     "energy": 30
+    },
+    "gold": {
+     "energy": 100,
+     "crystals": 20
+    }
+   },
+   {
+    "points": 300,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 330,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 360,
+    "free": {
+     "energy": 30
+    },
+    "gold": {
+     "energy": 100,
+     "crystals": 20
+    }
+   },
+   {
+    "points": 390,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 420,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 25
+    }
+   },
+   {
+    "points": 450,
+    "free": {
+     "energy": 30
+    },
+    "gold": {
+     "energy": 100,
+     "crystals": 20
+    }
+   }
+  ]
+ },
+ "disabledStories": [],
+ "consentCountries": [
+  "GBR",
+  "NOR",
+  "ISL",
+  "LIE",
+  "CHE"
+ ]
+}
