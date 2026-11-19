@@ -1,12 +1,11 @@
 {
- "energyCap": 60,
- "energySeconds": 200,
- "tapCost": 5,
+ "energyCap": 100,
+ "energySeconds": 120,
+ "tapCost": 1,
  "openNowPrice": 30,
- "refillPrice": 20,
- "refillEnergy": 60,
- "partPrice": 60,
- "orderCrystals": 3,
+ "refillEnergy": 100,
+ "partPrice": 50,
+ "orderCrystals": 5,
  "orderPoints": 10,
  "packs": [
   {
@@ -40,7 +39,9 @@
    "once": true,
    "reward": {
     "crystals": 300,
-    "energy": 100
+    "energy": 100,
+    "frame": "first-night",
+    "slot": true
    }
   },
   {
@@ -71,17 +72,2247 @@
    }
   }
  ],
- "weeks": [],
+ "weeks": [
+  {
+   "id": "w2026-11-19",
+   "story": "sixth",
+   "start": "2026-11-19T00:00",
+   "end": "2026-11-23T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2026-11-26",
+   "story": "window",
+   "start": "2026-11-26T00:00",
+   "end": "2026-11-30T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2026-12-03",
+   "story": "signal",
+   "start": "2026-12-03T00:00",
+   "end": "2026-12-07T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2026-12-10",
+   "story": "angel",
+   "start": "2026-12-10T00:00",
+   "end": "2026-12-14T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2026-12-17",
+   "story": "balls",
+   "start": "2026-12-17T00:00",
+   "end": "2026-12-21T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2026-12-24",
+   "story": "seam",
+   "start": "2026-12-24T00:00",
+   "end": "2026-12-28T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2026-12-31",
+   "story": "rice",
+   "start": "2026-12-31T00:00",
+   "end": "2027-01-04T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-01-07",
+   "story": "sixth",
+   "start": "2027-01-07T00:00",
+   "end": "2027-01-11T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-01-14",
+   "story": "window",
+   "start": "2027-01-14T00:00",
+   "end": "2027-01-18T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-01-21",
+   "story": "signal",
+   "start": "2027-01-21T00:00",
+   "end": "2027-01-25T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-01-28",
+   "story": "angel",
+   "start": "2027-01-28T00:00",
+   "end": "2027-02-01T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-02-04",
+   "story": "balls",
+   "start": "2027-02-04T00:00",
+   "end": "2027-02-08T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-02-11",
+   "story": "seam",
+   "start": "2027-02-11T00:00",
+   "end": "2027-02-15T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-02-18",
+   "story": "rice",
+   "start": "2027-02-18T00:00",
+   "end": "2027-02-22T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-02-25",
+   "story": "sixth",
+   "start": "2027-02-25T00:00",
+   "end": "2027-03-01T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-03-04",
+   "story": "window",
+   "start": "2027-03-04T00:00",
+   "end": "2027-03-08T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-03-11",
+   "story": "signal",
+   "start": "2027-03-11T00:00",
+   "end": "2027-03-15T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-03-18",
+   "story": "angel",
+   "start": "2027-03-18T00:00",
+   "end": "2027-03-22T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-03-25",
+   "story": "balls",
+   "start": "2027-03-25T00:00",
+   "end": "2027-03-29T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-04-01",
+   "story": "seam",
+   "start": "2027-04-01T00:00",
+   "end": "2027-04-05T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-04-08",
+   "story": "rice",
+   "start": "2027-04-08T00:00",
+   "end": "2027-04-12T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-04-15",
+   "story": "sixth",
+   "start": "2027-04-15T00:00",
+   "end": "2027-04-19T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-04-22",
+   "story": "window",
+   "start": "2027-04-22T00:00",
+   "end": "2027-04-26T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-04-29",
+   "story": "signal",
+   "start": "2027-04-29T00:00",
+   "end": "2027-05-03T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-05-06",
+   "story": "angel",
+   "start": "2027-05-06T00:00",
+   "end": "2027-05-10T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-05-13",
+   "story": "balls",
+   "start": "2027-05-13T00:00",
+   "end": "2027-05-17T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-05-20",
+   "story": "seam",
+   "start": "2027-05-20T00:00",
+   "end": "2027-05-24T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-05-27",
+   "story": "rice",
+   "start": "2027-05-27T00:00",
+   "end": "2027-05-31T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-06-03",
+   "story": "sixth",
+   "start": "2027-06-03T00:00",
+   "end": "2027-06-07T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  },
+  {
+   "id": "w2027-06-10",
+   "story": "window",
+   "start": "2027-06-10T00:00",
+   "end": "2027-06-14T00:00",
+   "orders": [
+    [
+     [
+      0,
+      5
+     ]
+    ],
+    [
+     [
+      1,
+      5
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ]
+    ],
+    [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    [
+     [
+      2,
+      7
+     ]
+    ]
+   ],
+   "steps": [
+    {
+     "points": 10,
+     "reward": {
+      "coins": 40
+     }
+    },
+    {
+     "points": 20,
+     "reward": {
+      "energy": 30
+     }
+    },
+    {
+     "points": 30,
+     "reward": {
+      "crystals": 15
+     }
+    },
+    {
+     "points": 40,
+     "reward": {
+      "coins": 80
+     }
+    },
+    {
+     "points": 50,
+     "reward": {
+      "crystals": 50
+     }
+    }
+   ]
+  }
+ ],
  "pass": {
   "product": "io.github.njall1.sixthgift.pass",
   "steps": [
    {
-    "points": 30,
+    "points": 20,
     "free": {
-     "crystals": 5
+     "coins": 20
     },
     "gold": {
-     "crystals": 25
+     "crystals": 20
+    }
+   },
+   {
+    "points": 40,
+    "free": {
+     "energy": 20
+    },
+    "gold": {
+     "crystals": 20
     }
    },
    {
@@ -90,17 +2321,26 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 25
+     "crystals": 20
     }
    },
    {
-    "points": 90,
+    "points": 80,
     "free": {
-     "energy": 30
+     "coins": 20
+    },
+    "gold": {
+     "crystals": 20
+    }
+   },
+   {
+    "points": 100,
+    "free": {
+     "energy": 20
     },
     "gold": {
      "energy": 100,
-     "crystals": 20
+     "crystals": 30
     }
    },
    {
@@ -109,35 +2349,53 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 25
+     "crystals": 20
     }
    },
    {
-    "points": 150,
+    "points": 140,
     "free": {
-     "crystals": 5
+     "coins": 20
     },
     "gold": {
-     "crystals": 25
+     "frame": "snow"
+    }
+   },
+   {
+    "points": 160,
+    "free": {
+     "energy": 20
+    },
+    "gold": {
+     "crystals": 20
     }
    },
    {
     "points": 180,
     "free": {
-     "energy": 30
+     "crystals": 5
     },
     "gold": {
-     "energy": 100,
      "crystals": 20
     }
    },
    {
-    "points": 210,
+    "points": 200,
     "free": {
-     "crystals": 5
+     "coins": 20
     },
     "gold": {
-     "crystals": 25
+     "energy": 100,
+     "crystals": 30
+    }
+   },
+   {
+    "points": 220,
+    "free": {
+     "energy": 20
+    },
+    "gold": {
+     "crystals": 20
     }
    },
    {
@@ -146,16 +2404,24 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 25
+     "crystals": 20
     }
    },
    {
-    "points": 270,
+    "points": 260,
     "free": {
-     "energy": 30
+     "coins": 20
     },
     "gold": {
-     "energy": 100,
+     "crystals": 20
+    }
+   },
+   {
+    "points": 280,
+    "free": {
+     "energy": 20
+    },
+    "gold": {
      "crystals": 20
     }
    },
@@ -165,35 +2431,53 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 25
+     "slot": true
     }
    },
    {
-    "points": 330,
+    "points": 320,
     "free": {
-     "crystals": 5
+     "coins": 20
     },
     "gold": {
-     "crystals": 25
+     "crystals": 20
+    }
+   },
+   {
+    "points": 340,
+    "free": {
+     "energy": 20
+    },
+    "gold": {
+     "crystals": 20
     }
    },
    {
     "points": 360,
     "free": {
-     "energy": 30
+     "crystals": 5
     },
     "gold": {
-     "energy": 100,
      "crystals": 20
     }
    },
    {
-    "points": 390,
+    "points": 380,
     "free": {
-     "crystals": 5
+     "coins": 20
     },
     "gold": {
-     "crystals": 25
+     "crystals": 20
+    }
+   },
+   {
+    "points": 400,
+    "free": {
+     "energy": 20
+    },
+    "gold": {
+     "energy": 100,
+     "crystals": 30
     }
    },
    {
@@ -202,17 +2486,90 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 25
+     "crystals": 20
     }
    },
    {
-    "points": 450,
+    "points": 440,
     "free": {
-     "energy": 30
+     "coins": 20
+    },
+    "gold": {
+     "crystals": 20
+    }
+   },
+   {
+    "points": 460,
+    "free": {
+     "energy": 20
+    },
+    "gold": {
+     "crystals": 20
+    }
+   },
+   {
+    "points": 480,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 20
+    }
+   },
+   {
+    "points": 500,
+    "free": {
+     "coins": 20
     },
     "gold": {
      "energy": 100,
+     "crystals": 30
+    }
+   },
+   {
+    "points": 520,
+    "free": {
+     "energy": 20
+    },
+    "gold": {
      "crystals": 20
+    }
+   },
+   {
+    "points": 540,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "crystals": 20
+    }
+   },
+   {
+    "points": 560,
+    "free": {
+     "coins": 20
+    },
+    "gold": {
+     "crystals": 20
+    }
+   },
+   {
+    "points": 580,
+    "free": {
+     "energy": 20
+    },
+    "gold": {
+     "crystals": 20
+    }
+   },
+   {
+    "points": 600,
+    "free": {
+     "crystals": 5
+    },
+    "gold": {
+     "energy": 100,
+     "crystals": 30
     }
    }
   ]
@@ -224,5 +2581,101 @@
   "ISL",
   "LIE",
   "CHE"
- ]
+ ],
+ "refillPrices": [
+  10,
+  20,
+  40,
+  80
+ ],
+ "boardCols": 5,
+ "boardRows": 4,
+ "frozenCells": 3,
+ "slotPrices": [
+  20,
+  40,
+  80
+ ],
+ "itemCoinPrice": 30,
+ "orderCoins": 40,
+ "dailyCount": 2,
+ "dailyReward": {
+  "crystals": 10,
+  "coins": 20
+ },
+ "login": [
+  {
+   "coins": 20
+  },
+  {
+   "crystals": 5
+  },
+  {
+   "energy": 20
+  },
+  {
+   "crystals": 10
+  },
+  {
+   "coins": 40
+  },
+  {
+   "energy": 30
+  },
+  {
+   "crystals": 50
+  }
+ ],
+ "loginStep": 0.1,
+ "loginMax": 2.0,
+ "returnDays": 7,
+ "returnGift": {
+  "energy": 100,
+  "crystals": 50
+ },
+ "frames": [
+  {
+   "id": "first-night",
+   "title": {
+    "ru": "Первая ночь",
+    "en": "First Night",
+    "ja": "最初の夜",
+    "ko": "첫 번째 밤"
+   },
+   "color": "#C9A24E"
+  },
+  {
+   "id": "snow",
+   "title": {
+    "ru": "Снег",
+    "en": "Snow",
+    "ja": "雪",
+    "ko": "눈"
+   },
+   "color": "#DDE6EA"
+  },
+  {
+   "id": "celadon",
+   "title": {
+    "ru": "Селадон",
+    "en": "Celadon",
+    "ja": "青磁",
+    "ko": "청자"
+   },
+   "color": "#8FB5A0",
+   "coins": 200
+  },
+  {
+   "id": "lacquer",
+   "title": {
+    "ru": "Красный лак",
+    "en": "Red Lacquer",
+    "ja": "朱漆",
+    "ko": "주칠"
+   },
+   "color": "#9E2B25",
+   "coins": 400
+  }
+ ],
+ "modeA": false
 }
