@@ -117,9 +117,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -135,9 +133,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -191,9 +187,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -209,9 +203,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -265,9 +257,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -283,9 +273,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -339,9 +327,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -357,9 +343,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -413,9 +397,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -431,9 +413,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -487,9 +467,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -505,9 +483,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -561,9 +537,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -579,9 +553,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -635,9 +607,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -653,9 +623,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -709,9 +677,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -727,9 +693,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -783,9 +747,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -801,9 +763,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -857,9 +817,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -875,9 +833,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -931,9 +887,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -949,9 +903,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1005,9 +957,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1023,9 +973,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1079,9 +1027,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1097,9 +1043,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1153,9 +1097,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1171,9 +1113,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1227,9 +1167,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1245,9 +1183,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1301,9 +1237,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1319,9 +1253,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1375,9 +1307,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1393,9 +1323,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1449,9 +1377,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1467,9 +1393,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1523,9 +1447,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1541,9 +1463,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1597,9 +1517,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1615,9 +1533,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1671,9 +1587,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1689,9 +1603,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1745,9 +1657,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1763,9 +1673,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1819,9 +1727,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1837,9 +1743,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1893,9 +1797,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1911,9 +1813,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -1967,9 +1867,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -1985,9 +1883,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -2041,9 +1937,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -2059,9 +1953,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -2115,9 +2007,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -2133,9 +2023,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -2189,9 +2077,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -2207,9 +2093,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -2263,9 +2147,7 @@
    "steps": [
     {
      "points": 10,
-     "reward": {
-      "coins": 40
-     }
+     "reward": {}
     },
     {
      "points": 20,
@@ -2281,9 +2163,7 @@
     },
     {
      "points": 40,
-     "reward": {
-      "coins": 80
-     }
+     "reward": {}
     },
     {
      "points": 50,
@@ -2299,9 +2179,7 @@
   "steps": [
    {
     "points": 20,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "crystals": 20
     }
@@ -2326,9 +2204,7 @@
    },
    {
     "points": 80,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "crystals": 20
     }
@@ -2354,9 +2230,7 @@
    },
    {
     "points": 140,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "frame": "snow"
     }
@@ -2381,9 +2255,7 @@
    },
    {
     "points": 200,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "energy": 100,
      "crystals": 30
@@ -2409,9 +2281,7 @@
    },
    {
     "points": 260,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "crystals": 20
     }
@@ -2436,9 +2306,7 @@
    },
    {
     "points": 320,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "crystals": 20
     }
@@ -2463,9 +2331,7 @@
    },
    {
     "points": 380,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "crystals": 20
     }
@@ -2491,9 +2357,7 @@
    },
    {
     "points": 440,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "crystals": 20
     }
@@ -2518,9 +2382,7 @@
    },
    {
     "points": 500,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "energy": 100,
      "crystals": 30
@@ -2546,9 +2408,7 @@
    },
    {
     "points": 560,
-    "free": {
-     "coins": 20
-    },
+    "free": {},
     "gold": {
      "crystals": 20
     }
@@ -2600,13 +2460,10 @@
  "orderCoins": 40,
  "dailyCount": 2,
  "dailyReward": {
-  "crystals": 10,
-  "coins": 20
+  "crystals": 10
  },
  "login": [
-  {
-   "coins": 20
-  },
+  {},
   {
    "crystals": 5
   },
@@ -2616,9 +2473,7 @@
   {
    "crystals": 10
   },
-  {
-   "coins": 40
-  },
+  {},
   {
    "energy": 30
   },
@@ -2677,5 +2532,106 @@
    "coins": 400
   }
  ],
- "modeA": false
+ "modeA": false,
+ "chapterCost": 10,
+ "freeChapters": {
+  "sixth": 7
+ },
+ "storyUnlockPrice": 60,
+ "artifactPrices": [
+  3,
+  5,
+  8,
+  12,
+  20,
+  30,
+  45,
+  70
+ ],
+ "lavka": {
+  "count": 6,
+  "discount": 0.3,
+  "minLevel": 3,
+  "maxLevel": 7
+ },
+ "streak": {
+  "energy": 20,
+  "energyStep": 2,
+  "crystals": 2,
+  "crystalEvery": 5,
+  "capDay": 30,
+  "milestones": [
+   {
+    "every": 7,
+    "reward": {
+     "energy": 60,
+     "crystals": 15
+    },
+    "artifact": 4,
+    "title": {
+     "ru": "Сундук недели",
+     "en": "Weekly chest",
+     "ja": "週の宝箱",
+     "ko": "주간 상자"
+    }
+   },
+   {
+    "day": 30,
+    "reward": {
+     "crystals": 30,
+     "frame": "celadon"
+    },
+    "artifact": 7,
+    "title": {
+     "ru": "Месяц подряд",
+     "en": "A month in a row",
+     "ja": "1か月連続",
+     "ko": "한 달 연속"
+    }
+   },
+   {
+    "day": 100,
+    "reward": {
+     "crystals": 100,
+     "frame": "lacquer"
+    },
+    "artifact": 8,
+    "title": {
+     "ru": "Сто дней",
+     "en": "A hundred days",
+     "ja": "100日",
+     "ko": "100일"
+    }
+   },
+   {
+    "day": 365,
+    "reward": {
+     "crystals": 365,
+     "frame": "snow"
+    },
+    "artifact": 8,
+    "title": {
+     "ru": "Год подряд",
+     "en": "A year in a row",
+     "ja": "1年連続",
+     "ko": "1년 연속"
+    }
+   }
+  ]
+ },
+ "score": {
+  "ending": 100,
+  "legend": 300,
+  "artifact": 10,
+  "streakDay": 5
+ },
+ "leaderboard": {
+  "id": "weekly_points",
+  "rewards": [
+   {
+    "top": 100,
+    "frame": "celadon"
+   }
+  ]
+ }
 }
