@@ -1,8 +1,7 @@
 {
  "energyCap": 100,
- "energySeconds": 120,
+ "energySeconds": 300,
  "tapCost": 1,
- "openNowPrice": 30,
  "refillEnergy": 100,
  "partPrice": 50,
  "orderCrystals": 5,
@@ -34,13 +33,12 @@
   {
    "id": "starter",
    "product": "io.github.njall1.sixthgift.starter",
-   "trigger": "first_gate",
+   "trigger": "first_finale",
    "hours": 48,
    "once": true,
    "reward": {
     "crystals": 300,
     "energy": 100,
-    "frame": "first-night",
     "slot": true
    }
   },
@@ -49,7 +47,7 @@
    "product": "io.github.njall1.sixthgift.offer.energy",
    "trigger": "energy_empty",
    "reward": {
-    "crystals": 50,
+    "crystals": 150,
     "energy": 100
    }
   },
@@ -117,7 +115,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -133,7 +133,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -187,7 +189,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -203,7 +207,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -257,7 +263,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -273,7 +281,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -327,7 +337,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -343,7 +355,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -397,7 +411,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -413,7 +429,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -467,7 +485,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -483,7 +503,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -537,7 +559,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -553,7 +577,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -607,7 +633,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -623,7 +651,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -677,7 +707,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -693,7 +725,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -747,7 +781,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -763,7 +799,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -817,7 +855,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -833,7 +873,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -887,7 +929,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -903,7 +947,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -957,7 +1003,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -973,7 +1021,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1027,7 +1077,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1043,7 +1095,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1097,7 +1151,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1113,7 +1169,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1167,7 +1225,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1183,7 +1243,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1237,7 +1299,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1253,7 +1317,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1307,7 +1373,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1323,7 +1391,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1377,7 +1447,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1393,7 +1465,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1447,7 +1521,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1463,7 +1539,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1517,7 +1595,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1533,7 +1613,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1587,7 +1669,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1603,7 +1687,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1657,7 +1743,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1673,7 +1761,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1727,7 +1817,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1743,7 +1835,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1797,7 +1891,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1813,7 +1909,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1867,7 +1965,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1883,7 +1983,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -1937,7 +2039,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -1953,7 +2057,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -2007,7 +2113,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -2023,7 +2131,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -2077,7 +2187,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -2093,7 +2205,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -2147,7 +2261,9 @@
    "steps": [
     {
      "points": 10,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 20,
@@ -2163,7 +2279,9 @@
     },
     {
      "points": 40,
-     "reward": {}
+     "reward": {
+      "energy": 20
+     }
     },
     {
      "points": 50,
@@ -2181,7 +2299,7 @@
     "points": 20,
     "free": {},
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2190,7 +2308,7 @@
      "energy": 20
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2199,14 +2317,14 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
     "points": 80,
     "free": {},
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2216,7 +2334,7 @@
     },
     "gold": {
      "energy": 100,
-     "crystals": 30
+     "crystals": 22
     }
    },
    {
@@ -2225,14 +2343,14 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
     "points": 140,
     "free": {},
     "gold": {
-     "frame": "snow"
+     "crystals": 10
     }
    },
    {
@@ -2241,7 +2359,7 @@
      "energy": 20
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2250,7 +2368,7 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2258,7 +2376,7 @@
     "free": {},
     "gold": {
      "energy": 100,
-     "crystals": 30
+     "crystals": 22
     }
    },
    {
@@ -2267,7 +2385,7 @@
      "energy": 20
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2276,14 +2394,14 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
     "points": 260,
     "free": {},
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2292,7 +2410,7 @@
      "energy": 20
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2308,7 +2426,7 @@
     "points": 320,
     "free": {},
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2317,7 +2435,7 @@
      "energy": 20
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2326,14 +2444,14 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
     "points": 380,
     "free": {},
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2343,7 +2461,7 @@
     },
     "gold": {
      "energy": 100,
-     "crystals": 30
+     "crystals": 22
     }
    },
    {
@@ -2352,14 +2470,14 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
     "points": 440,
     "free": {},
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2368,7 +2486,7 @@
      "energy": 20
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2377,7 +2495,7 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2385,7 +2503,7 @@
     "free": {},
     "gold": {
      "energy": 100,
-     "crystals": 30
+     "crystals": 22
     }
    },
    {
@@ -2394,7 +2512,7 @@
      "energy": 20
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2403,14 +2521,14 @@
      "crystals": 5
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
     "points": 560,
     "free": {},
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2419,7 +2537,7 @@
      "energy": 20
     },
     "gold": {
-     "crystals": 20
+     "crystals": 10
     }
    },
    {
@@ -2429,7 +2547,7 @@
     },
     "gold": {
      "energy": 100,
-     "crystals": 30
+     "crystals": 22
     }
    }
   ]
@@ -2443,10 +2561,10 @@
   "CHE"
  ],
  "refillPrices": [
-  10,
-  20,
-  40,
-  80
+  30,
+  60,
+  90,
+  120
  ],
  "boardCols": 5,
  "boardRows": 4,
@@ -2456,82 +2574,15 @@
   40,
   80
  ],
- "itemCoinPrice": 30,
- "orderCoins": 40,
  "dailyCount": 2,
  "dailyReward": {
-  "crystals": 10
+  "crystals": 5
  },
- "login": [
-  {},
-  {
-   "crystals": 5
-  },
-  {
-   "energy": 20
-  },
-  {
-   "crystals": 10
-  },
-  {},
-  {
-   "energy": 30
-  },
-  {
-   "crystals": 50
-  }
- ],
- "loginStep": 0.1,
- "loginMax": 2.0,
  "returnDays": 7,
  "returnGift": {
   "energy": 100,
   "crystals": 50
  },
- "frames": [
-  {
-   "id": "first-night",
-   "title": {
-    "ru": "Первая ночь",
-    "en": "First Night",
-    "ja": "最初の夜",
-    "ko": "첫 번째 밤"
-   },
-   "color": "#C9A24E"
-  },
-  {
-   "id": "snow",
-   "title": {
-    "ru": "Снег",
-    "en": "Snow",
-    "ja": "雪",
-    "ko": "눈"
-   },
-   "color": "#DDE6EA"
-  },
-  {
-   "id": "celadon",
-   "title": {
-    "ru": "Селадон",
-    "en": "Celadon",
-    "ja": "青磁",
-    "ko": "청자"
-   },
-   "color": "#8FB5A0",
-   "coins": 200
-  },
-  {
-   "id": "lacquer",
-   "title": {
-    "ru": "Красный лак",
-    "en": "Red Lacquer",
-    "ja": "朱漆",
-    "ko": "주칠"
-   },
-   "color": "#9E2B25",
-   "coins": 400
-  }
- ],
  "modeA": false,
  "chapterCost": 10,
  "freeChapters": {
@@ -2578,8 +2629,7 @@
    {
     "day": 30,
     "reward": {
-     "crystals": 30,
-     "frame": "celadon"
+     "crystals": 50
     },
     "artifact": 7,
     "title": {
@@ -2592,8 +2642,7 @@
    {
     "day": 100,
     "reward": {
-     "crystals": 100,
-     "frame": "lacquer"
+     "crystals": 150
     },
     "artifact": 8,
     "title": {
@@ -2606,8 +2655,7 @@
    {
     "day": 365,
     "reward": {
-     "crystals": 365,
-     "frame": "snow"
+     "crystals": 500
     },
     "artifact": 8,
     "title": {
@@ -2629,9 +2677,24 @@
   "id": "weekly_points",
   "rewards": [
    {
+    "top": 10,
+    "reward": {
+     "crystals": 50
+    }
+   },
+   {
     "top": 100,
-    "frame": "celadon"
+    "reward": {
+     "crystals": 20
+    }
    }
   ]
+ },
+ "friends": {
+  "reward": {
+   "crystals": 50
+  },
+  "minScore": 100,
+  "max": 10
  }
 }
