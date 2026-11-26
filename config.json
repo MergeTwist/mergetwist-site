@@ -65,7 +65,7 @@
    "product": "io.github.njall1.sixthgift.offer.week",
    "trigger": "week_last_day",
    "reward": {
-    "crystals": 100,
+    "crystals": 150,
     "energy": 150
    }
   }
@@ -2292,266 +2292,6 @@
    ]
   }
  ],
- "pass": {
-  "product": "io.github.njall1.sixthgift.pass",
-  "steps": [
-   {
-    "points": 20,
-    "free": {},
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 40,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 60,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 80,
-    "free": {},
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 100,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "energy": 100,
-     "crystals": 22
-    }
-   },
-   {
-    "points": 120,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 140,
-    "free": {},
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 160,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 180,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 200,
-    "free": {},
-    "gold": {
-     "energy": 100,
-     "crystals": 22
-    }
-   },
-   {
-    "points": 220,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 240,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 260,
-    "free": {},
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 280,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 300,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "slot": true
-    }
-   },
-   {
-    "points": 320,
-    "free": {},
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 340,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 360,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 380,
-    "free": {},
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 400,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "energy": 100,
-     "crystals": 22
-    }
-   },
-   {
-    "points": 420,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 440,
-    "free": {},
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 460,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 480,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 500,
-    "free": {},
-    "gold": {
-     "energy": 100,
-     "crystals": 22
-    }
-   },
-   {
-    "points": 520,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 540,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 560,
-    "free": {},
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 580,
-    "free": {
-     "energy": 20
-    },
-    "gold": {
-     "crystals": 10
-    }
-   },
-   {
-    "points": 600,
-    "free": {
-     "crystals": 5
-    },
-    "gold": {
-     "energy": 100,
-     "crystals": 22
-    }
-   }
-  ]
- },
  "disabledStories": [],
  "consentCountries": [
   "GBR",
@@ -2563,8 +2303,8 @@
  "refillPrices": [
   30,
   60,
-  90,
-  120
+  120,
+  240
  ],
  "boardCols": 5,
  "boardRows": 4,
@@ -2589,7 +2329,7 @@
   "sixth": 7
  },
  "storyUnlockPrice": 150,
- "endingPrice": 300,
+ "endingPrice": 250,
  "artifactPrices": [
   3,
   5,
@@ -2667,6 +2407,54 @@
     }
    }
   ]
+ },
+ "goals": {
+  "goals": [
+   {
+    "id": "login",
+    "kind": "login",
+    "target": 4,
+    "reward": {
+     "crystals": 10
+    }
+   },
+   {
+    "id": "chapters",
+    "kind": "chapters",
+    "target": 5,
+    "reward": {
+     "energy": 30
+    }
+   },
+   {
+    "id": "merges",
+    "kind": "merges",
+    "target": 40,
+    "reward": {
+     "crystals": 10
+    }
+   },
+   {
+    "id": "orders",
+    "kind": "orders",
+    "target": 5,
+    "reward": {
+     "energy": 30
+    }
+   },
+   {
+    "id": "energy",
+    "kind": "energy",
+    "target": 150,
+    "reward": {
+     "crystals": 15
+    }
+   }
+  ],
+  "chest": {
+   "crystals": 30,
+   "energy": 60
+  }
  },
  "score": {
   "ending": 100,
