@@ -2325,9 +2325,7 @@
  },
  "modeA": false,
  "chapterCost": 10,
- "freeChapters": {
-  "sixth": 7
- },
+ "freeChapters": {},
  "storyUnlockPrice": 150,
  "endingPrice": 250,
  "artifactPrices": [
