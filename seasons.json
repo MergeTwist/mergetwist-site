@@ -6,56 +6,98 @@
     {
      "id": "window",
      "path": "window/",
-     "size": 41051176,
-     "sha256": "9daef7130e3294123180bdc58377eb853121d5f3b6e4281ae63ee7b7e7cdf289",
+     "size": 9287966,
+     "sha256": "ccaee3255bceb3ff424b4caf07d7a4fb1b3ce58205543cedae1e9a94490fbbee",
      "urls": [
       "https://cdn.mergetwist.com/s1/window.aar"
-     ]
+     ],
+     "rest": {
+      "size": 31841568,
+      "sha256": "d3f788ebb884a63da64f7c75be0ef0af6a3e9248071aa775f91a7aa47124a69c",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/window-rest.aar"
+      ]
+     }
     },
     {
      "id": "signal",
      "path": "signal/",
-     "size": 48529300,
-     "sha256": "5aca172d406d5a378593322770ab0710eba91592092f9a3f83d56252573bbd6e",
+     "size": 8920561,
+     "sha256": "298a043deae5e594b6647376da0b78f81f60aaab2ac4e500278e1526cb7f1748",
      "urls": [
       "https://cdn.mergetwist.com/s1/signal.aar"
-     ]
+     ],
+     "rest": {
+      "size": 39877028,
+      "sha256": "7f16230fb1400d4de29e843322fa1c628269760486cf0166fa029ffe1e2d1899",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/signal-rest.aar"
+      ]
+     }
     },
     {
      "id": "angel",
      "path": "angel/",
-     "size": 38092636,
-     "sha256": "612cac7f013e569996c6b5d5a212befb4f70feae4c0f980fdb703ecc6e546842",
+     "size": 7908422,
+     "sha256": "291dccffaedfcaa2478331e42d0c9605d10e0c2e4fccb53cb03dae61048e2161",
      "urls": [
       "https://cdn.mergetwist.com/s1/angel.aar"
-     ]
+     ],
+     "rest": {
+      "size": 30148450,
+      "sha256": "8e6351dc0b1c984b4a8d76c9a6768205ce65c6650cae282b3e15835239d87be1",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/angel-rest.aar"
+      ]
+     }
     },
     {
      "id": "balls",
      "path": "balls/",
-     "size": 41835818,
-     "sha256": "6da05446d5fac8cb3841d6c231163ae7ee456f5626eaecf90957a78e2f8c4bd8",
+     "size": 9786467,
+     "sha256": "eb5cdce65e858a5b800c420b8cf8fa65734b181b15205eef1b15b7dc151a9242",
      "urls": [
       "https://cdn.mergetwist.com/s1/balls.aar"
-     ]
+     ],
+     "rest": {
+      "size": 32541609,
+      "sha256": "6abdc839f5de4f0a6ad0a7a7572904b7bad7cd4c9924e3c2acfb4a3c31214c8f",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/balls-rest.aar"
+      ]
+     }
     },
     {
      "id": "seam",
      "path": "seam/",
-     "size": 49699451,
-     "sha256": "eee36e6ab08675033e4b434cb94b0e733e2162205ac28a531e94d82194a317d8",
+     "size": 9413896,
+     "sha256": "ca6b811a3f4b172f7902daf61ad1833cf611818d21ca83ba8a0f0067aab111a9",
      "urls": [
       "https://cdn.mergetwist.com/s1/seam.aar"
-     ]
+     ],
+     "rest": {
+      "size": 40510456,
+      "sha256": "140ad51169469af962208a91c218d6507110a3bec5441e619ee69881819db9db",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/seam-rest.aar"
+      ]
+     }
     },
     {
      "id": "rice",
      "path": "rice/",
-     "size": 44173011,
-     "sha256": "791d4b9e216b9006c7d64cd5366afd4f11842a041fce6fb39be1e860a0e502c8",
+     "size": 8081425,
+     "sha256": "265531d0a1d107e826482700e7a8d503f86cf2b98df0b75272c507de40a05f68",
      "urls": [
       "https://cdn.mergetwist.com/s1/rice.aar"
-     ]
+     ],
+     "rest": {
+      "size": 36542868,
+      "sha256": "278d726f2da4d8a963a008a904d07984fde9a13cbc24b0030f13d1f64dc2571c",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/rice-rest.aar"
+      ]
+     }
     }
    ]
   }
