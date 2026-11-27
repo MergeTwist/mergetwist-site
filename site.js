@@ -158,7 +158,7 @@
     const g = snow.getContext('2d'), flakes = Array.from({ length: 60 }, () => ({ x: Math.random(), y: Math.random(), r: Math.random() * 1.5 + .3, v: Math.random() * .25 + .08, w: Math.random() * 6.28 }));
     (function fall() {
       const w = snow.width = snow.clientWidth, h = snow.height = snow.clientHeight;
-      g.fillStyle = '#f3d9a880';
+      g.fillStyle = '#ecd38f80';
       flakes.forEach(f => { f.y -= f.v / h * 2.2; f.w += .01; if (f.y < 0) { f.y = 1; f.x = Math.random() }
         g.beginPath(); g.arc((f.x + Math.sin(f.w) * .01) * w, f.y * h, f.r, 0, 6.28); g.fill() });
       requestAnimationFrame(fall);
