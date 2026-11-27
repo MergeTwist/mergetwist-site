@@ -85,25 +85,81 @@
   const S = window.STORIES || [];
   let caption = null;
 
-  // Первый экран: обложки историй по кругу.
-  const heroBox = $('[data-hero]');
-  if (heroBox && S.length) {
-    const hero = new Depth(heroBox), bg = $('.hero-bg'), cap = $('.hero-cap');
-    let i = 0;
-    caption = () => { const s = S[i]; cap.innerHTML = `<b>${ru() ? s.titleRu : s.titleEn}</b>${ru() ? s.askRu : s.askEn}` };
-    const next = () => { const s = S[i]; hero.show(s.cover); bg.style.backgroundImage = `url(assets/f/${s.cover}.webp)`; caption() };
-    next();
-    if (!still) setInterval(() => { if (document.hidden || !viewer.hidden) return; i = (i + 1) % S.length; next() }, 7000);
+  // Первый экран: мини-доска merge. Собрал цепочку — открылась сцена истории и её выбор («история запомнит»).
+  const R = window.ROUNDS || [], demo = $('.demo');
+  if (demo && R.length) {
+    const L = () => ru() ? 'ru' : 'en', board = $('.board', demo), bar = $('.chainbar', demo), scene = $('.scene', demo), bg = $('.hero-bg');
+    const sceneDepth = new Depth($('[data-scene]', demo));
+    const cells = Array.from({ length: 16 }, (_, k) => { const b = document.createElement('button'); b.type = 'button'; b.className = 'cell'; b.addEventListener('click', () => tap(k)); board.appendChild(b); return b });
+    let r = 0, grid, sel = null;
+    const icon = (lv) => `assets/i/${R[r].chain[lv]}.webp`;
+    const draw = (pop) => {
+      grid.forEach((lv, k) => {
+        const c = cells[k]; c.classList.toggle('sel', sel === k); c.classList.toggle('pop', pop === k);
+        c.innerHTML = lv < 0 ? '' : `<img src="${icon(lv)}" alt="">`;
+        c.setAttribute('aria-label', lv < 0 ? (ru() ? 'Пусто' : 'Empty') : R[r].names[L()][lv]);
+      });
+      const best = Math.max(...grid);
+      $$('img', bar).forEach((im, lv) => im.classList.toggle('got', lv <= best));
+      // Подсказка: первая пара одинаковых предметов покачивается, пока ничего не выбрано.
+      const seen = {};
+      const pair = sel === null ? grid.map((lv, k) => [lv, k]).find(([lv, k]) => lv >= 0 && lv < 3 && (seen[lv] === undefined ? (seen[lv] = k, false) : true)) : null;
+      cells.forEach((c, k) => c.classList.toggle('hint', !!pair && (k === pair[1] || k === seen[pair[0]])));
+    };
+    const labels = () => {
+      const q = R[r];
+      $('.demo-goal', demo).textContent = q.goal[L()]; $('.demo-story', demo).textContent = q.story[L()];
+      $('.demo-goal-img', demo).src = icon(3);
+      bar.innerHTML = q.chain.map((_, lv) => `<img src="${icon(lv)}" alt="${q.names[L()][lv]}" title="${q.names[L()][lv]}">`).join('');
+    };
+    const start = () => {
+      // Ровно на одну цепочку: уровни 2, 1, 0 и 0 — три слияния до цели; «+» добавляет ещё.
+      grid = Array(16).fill(-1); [[2, 5], [1, 10], [0, 0], [0, 15]].forEach(([lv, k]) => grid[k] = lv);
+      sel = null; scene.hidden = true; scene.classList.remove('chosen');
+      bg.style.backgroundImage = `url(assets/f/${R[r].img}.webp)`; labels(); draw();
+    };
+    const win = () => {
+      const q = R[r], l = L();
+      sceneDepth.show(q.img);
+      $('.scene-line', demo).textContent = q.line[l]; $('.scene-ask', demo).textContent = q.ask[l]; $('.scene-memo', demo).textContent = '';
+      const opts = $('.scene-opts', demo); opts.innerHTML = '';
+      q.options.forEach(o => {
+        const b = document.createElement('button'); b.type = 'button'; b.textContent = o[l].text;
+        b.addEventListener('click', () => { $('.scene-memo', demo).textContent = (ru() ? 'История запомнит: ' : 'The story remembers: ') + (o[l].memo || o[l].text); scene.classList.add('chosen') });
+        opts.appendChild(b);
+      });
+      scene.hidden = false;
+    };
+    function tap(k) {
+      const lv = grid[k];
+      if (sel === null) { if (lv >= 0) sel = k; return draw() }
+      if (sel === k) { sel = null; return draw() }
+      if (lv < 0) { grid[k] = grid[sel]; grid[sel] = -1; sel = null; return draw(k) }  // перенос на пустую клетку
+      if (lv === grid[sel] && lv < 3) {
+        grid[k] = lv + 1; grid[sel] = -1; sel = null; draw(k);
+        if (lv + 1 === 3) setTimeout(win, 650);
+        return;
+      }
+      sel = k; draw();
+    }
+    $('.spawn', demo).addEventListener('click', () => {
+      const free = grid.map((lv, k) => lv < 0 ? k : -1).filter(k => k >= 0);
+      if (!free.length) return;
+      const k = free[Math.random() * free.length | 0]; grid[k] = 0; draw(k);
+    });
+    $('.scene-next', demo).addEventListener('click', () => { r = (r + 1) % R.length; start() });
+    caption = () => { labels(); draw() };
+    start();
   }
 
-  // Снег на первом экране.
+  // Пылинки в свете на первом экране.
   const snow = $('.snow');
   if (snow && !still) {
-    const g = snow.getContext('2d'), flakes = Array.from({ length: 90 }, () => ({ x: Math.random(), y: Math.random(), r: Math.random() * 1.8 + .4, v: Math.random() * .4 + .15, w: Math.random() * 6.28 }));
+    const g = snow.getContext('2d'), flakes = Array.from({ length: 60 }, () => ({ x: Math.random(), y: Math.random(), r: Math.random() * 1.5 + .3, v: Math.random() * .25 + .08, w: Math.random() * 6.28 }));
     (function fall() {
       const w = snow.width = snow.clientWidth, h = snow.height = snow.clientHeight;
-      g.fillStyle = '#ffffffb0';
-      flakes.forEach(f => { f.y += f.v / h * 2.2; f.w += .01; if (f.y > 1) { f.y = 0; f.x = Math.random() }
+      g.fillStyle = '#f3d9a880';
+      flakes.forEach(f => { f.y -= f.v / h * 2.2; f.w += .01; if (f.y < 0) { f.y = 1; f.x = Math.random() }
         g.beginPath(); g.arc((f.x + Math.sin(f.w) * .01) * w, f.y * h, f.r, 0, 6.28); g.fill() });
       requestAnimationFrame(fall);
     })();
