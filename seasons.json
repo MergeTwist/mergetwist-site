@@ -9,13 +9,13 @@
      "size": 9560921,
      "sha256": "9b8d81789ca15b9ebf1d57fc72c309221f507a6e7660ca6e326b2e6378dfc15f",
      "urls": [
-      "https://cdn.mergetwist.com/s1/window.aar"
+      "https://cdn.mergetwist.com/s1/window.aar?v=9b8d81789ca1"
      ],
      "rest": {
       "size": 31677133,
       "sha256": "38001cc5ee356f8acad1d6a23f0188feb89462f53a5c4d330f069a26737dafe4",
       "urls": [
-       "https://cdn.mergetwist.com/s1/window-rest.aar"
+       "https://cdn.mergetwist.com/s1/window-rest.aar?v=38001cc5ee35"
       ]
      }
     },
@@ -25,13 +25,13 @@
      "size": 8923889,
      "sha256": "1d599f34d991bd18fd5a04bde3f0595f2211fefcaf2f5ffb3834c7aefc6a6f71",
      "urls": [
-      "https://cdn.mergetwist.com/s1/signal.aar"
+      "https://cdn.mergetwist.com/s1/signal.aar?v=1d599f34d991"
      ],
      "rest": {
       "size": 39685667,
       "sha256": "474759081c217796ff5d9904f17dd372b8d0c3fbc589a3caf9204e66612aff33",
       "urls": [
-       "https://cdn.mergetwist.com/s1/signal-rest.aar"
+       "https://cdn.mergetwist.com/s1/signal-rest.aar?v=474759081c21"
       ]
      }
     },
@@ -41,13 +41,13 @@
      "size": 7920883,
      "sha256": "3d5f8d78ac6579b3174e6040800f33bbc9c906b954f421cb958e84ddaf6a9874",
      "urls": [
-      "https://cdn.mergetwist.com/s1/angel.aar"
+      "https://cdn.mergetwist.com/s1/angel.aar?v=3d5f8d78ac65"
      ],
      "rest": {
       "size": 30032579,
       "sha256": "1f7ab96d13f902faea07a3e40f8b5e365ad2041d23b1677edbc6bbf4555b1e7e",
       "urls": [
-       "https://cdn.mergetwist.com/s1/angel-rest.aar"
+       "https://cdn.mergetwist.com/s1/angel-rest.aar?v=1f7ab96d13f9"
       ]
      }
     },
@@ -57,13 +57,13 @@
      "size": 9770170,
      "sha256": "c38face87722d5b3a7dc1a11d98510b81fd71482b9151061fe757dbd42429e24",
      "urls": [
-      "https://cdn.mergetwist.com/s1/balls.aar"
+      "https://cdn.mergetwist.com/s1/balls.aar?v=c38face87722"
      ],
      "rest": {
       "size": 32797983,
       "sha256": "23d46af7e34423a5784672ec5e2ef1c71822e1ece3059587d655357055a2314f",
       "urls": [
-       "https://cdn.mergetwist.com/s1/balls-rest.aar"
+       "https://cdn.mergetwist.com/s1/balls-rest.aar?v=23d46af7e344"
       ]
      }
     },
@@ -73,13 +73,13 @@
      "size": 9401886,
      "sha256": "6d2034ece808a6e68daf55d7694267461ecf825701fd6bbedfe5b5cfef8184fd",
      "urls": [
-      "https://cdn.mergetwist.com/s1/seam.aar"
+      "https://cdn.mergetwist.com/s1/seam.aar?v=6d2034ece808"
      ],
      "rest": {
       "size": 41545566,
       "sha256": "9265acf316d8de2be4283594e5c0fd93c8b64907fc02b15209253686b4825067",
       "urls": [
-       "https://cdn.mergetwist.com/s1/seam-rest.aar"
+       "https://cdn.mergetwist.com/s1/seam-rest.aar?v=9265acf316d8"
       ]
      }
     },
@@ -89,13 +89,13 @@
      "size": 8081359,
      "sha256": "3e87ebd33e1f5f4be7cec3dbc466c2825c53d56e7bd80ed7e300f20f071db6a5",
      "urls": [
-      "https://cdn.mergetwist.com/s1/rice.aar"
+      "https://cdn.mergetwist.com/s1/rice.aar?v=3e87ebd33e1f"
      ],
      "rest": {
       "size": 36367055,
       "sha256": "2f8e0497722215950bac20a198ea50e25674bf2469ff020ef9c7d5ec940d04f1",
       "urls": [
-       "https://cdn.mergetwist.com/s1/rice-rest.aar"
+       "https://cdn.mergetwist.com/s1/rice-rest.aar?v=2f8e04977222"
       ]
      }
     },
@@ -105,13 +105,13 @@
      "size": 9041274,
      "sha256": "74404cf8272b5723e46829b1facfaf518b2d6974e0ef8cfd9f531389c9522092",
      "urls": [
-      "https://cdn.mergetwist.com/s1/sixth.aar"
+      "https://cdn.mergetwist.com/s1/sixth.aar?v=74404cf8272b"
      ],
      "rest": {
       "size": 33282317,
       "sha256": "f00d2b1bb8b731182e0fb7fce39178704cfd19908a6e2e9b7fc3a2b64ee183bc",
       "urls": [
-       "https://cdn.mergetwist.com/s1/sixth-rest.aar"
+       "https://cdn.mergetwist.com/s1/sixth-rest.aar?v=f00d2b1bb8b7"
       ]
      }
     }
