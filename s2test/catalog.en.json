@@ -1,0 +1,62 @@
+[
+ {
+  "id": "s2test-signal",
+  "title": "Night Signal",
+  "tag": "Small-town romance",
+  "style": "Small-town America · late-night radio",
+  "section": "America",
+  "about": "A storm has cut the town off. Until dawn it has one voice: the radio station June is selling in the morning",
+  "cover": "sig-c01-station-storm",
+  "mood": "warm",
+  "look": "radio",
+  "trailer": [
+   "c01:4",
+   "c01:6",
+   "c01:17",
+   "c01:35",
+   "c02:25"
+  ],
+  "ask": "Sell the station or go on air?",
+  "path": "signal/"
+ },
+ {
+  "id": "s2test-seam",
+  "title": "Golden Seam",
+  "tag": "Healing story",
+  "style": "Japanese iyashikei · seaside town",
+  "section": "Japan",
+  "about": "A seaside workshop mends pottery with gold from the last train to the first. Twelve boxes, twelve visitors",
+  "cover": "seam-c01-workshop",
+  "mood": "warm",
+  "look": "iyashi",
+  "trailer": [
+   "c01:4",
+   "c01:5",
+   "c01:15",
+   "c01:17",
+   "c01:33"
+  ],
+  "ask": "Stay, or take the first train?",
+  "path": "seam/"
+ },
+ {
+  "id": "s2test-rice",
+  "title": "Sticky Rice",
+  "tag": "Healing night story",
+  "style": "Korean drama · Seoul",
+  "section": "Korea",
+  "about": "The night before Korea's biggest exam. A snack bar across from the school feeds everyone who can't sleep — and gives no one advice",
+  "cover": "rice-c01-street",
+  "mood": "warm",
+  "look": "drama",
+  "trailer": [
+   "c01:5",
+   "c01:7",
+   "c01:10",
+   "c01:27",
+   "c02:4"
+  ],
+  "ask": "Tell Minu the truth before the exam?",
+  "path": "rice/"
+ }
+]

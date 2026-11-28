@@ -2535,5 +2535,21 @@
   },
   "minScore": 100,
   "max": 10
+ },
+ "banner": {
+  "season": "s2test",
+  "image": "s2test/cover.jpg",
+  "title": {
+   "en": "Warm Light (test)",
+   "ru": "Тёплый свет (тест)",
+   "ja": "あたたかな灯り（テスト）",
+   "ko": "따뜻한 불빛 (테스트)"
+  },
+  "text": {
+   "en": "Test banner: three stories of the new season. Tap to download.",
+   "ru": "Тестовый баннер: три истории нового сезона. Коснитесь, чтобы скачать.",
+   "ja": "テストバナー：新シーズンの3つの物語。タップしてダウンロード。",
+   "ko": "테스트 배너: 새 시즌의 이야기 세 편. 눌러서 내려받으세요."
+  }
  }
 }
