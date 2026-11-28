@@ -115,12 +115,17 @@
       ]
      }
     }
-   ]
+   ],
+   "titles": {
+    "en": "Winter Nights",
+    "ru": "Зимние ночи",
+    "ja": "冬の夜",
+    "ko": "겨울밤"
+   }
   },
   {
    "id": "s2test",
    "catalog": "s2test/catalog",
-   "title": "Season 2 (test)",
    "about": "Copies of season 1 stories — a test of adding a season without a release.",
    "stories": [
     {
@@ -171,12 +176,17 @@
       ]
      }
     }
-   ]
+   ],
+   "titles": {
+    "en": "Warm Light (test)",
+    "ru": "Тёплый свет (тест)",
+    "ja": "あたたかな灯り（テスト）",
+    "ko": "따뜻한 불빛 (테스트)"
+   }
   },
   {
    "id": "s3test",
    "catalog": "s3test/catalog",
-   "title": "Season 3 (test)",
    "about": "Opens later — a test of the “Soon” block.",
    "stories": [
     {
@@ -212,7 +222,13 @@
      }
     }
    ],
-   "opens": "2027-03-01T20:47"
+   "opens": "2027-03-01T20:47",
+   "titles": {
+    "en": "Locked Doors (test)",
+    "ru": "Запертые двери (тест)",
+    "ja": "閉ざされた扉（テスト）",
+    "ko": "잠긴 문 (테스트)"
+   }
   }
  ]
 }
