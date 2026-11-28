@@ -2315,6 +2315,56 @@
   80
  ],
  "dailyCount": 2,
+ "holidays": [
+  {
+   "id": "holidays-2026",
+   "from": "2026-12-17T00:00",
+   "until": "2027-01-08T00:00",
+   "title": {
+    "en": "Holidays",
+    "ru": "Праздники",
+    "ja": "ホリデー",
+    "ko": "연말연시"
+   },
+   "packs": {
+    "io.github.njall1.sixthgift.crystals50": 75,
+    "io.github.njall1.sixthgift.crystals275": 410,
+    "io.github.njall1.sixthgift.crystals575": 860,
+    "io.github.njall1.sixthgift.crystals1200": 1800,
+    "io.github.njall1.sixthgift.crystals3250": 4875
+   }
+  },
+  {
+   "id": "christmas-2026",
+   "from": "2026-12-24T00:00",
+   "until": "2026-12-27T00:00",
+   "title": {
+    "en": "Christmas",
+    "ru": "Рождество",
+    "ja": "クリスマス",
+    "ko": "크리스마스"
+   },
+   "gift": {
+    "crystals": 50,
+    "energy": 100
+   }
+  },
+  {
+   "id": "newyear-2027",
+   "from": "2026-12-31T00:00",
+   "until": "2027-01-02T00:00",
+   "title": {
+    "en": "New Year",
+    "ru": "Новый год",
+    "ja": "お正月",
+    "ko": "새해"
+   },
+   "gift": {
+    "crystals": 50,
+    "energy": 100
+   }
+  }
+ ],
  "standingReward": {
   "energy": 2
  },
@@ -2326,7 +2376,6 @@
   "energy": 100,
   "crystals": 50
  },
- "modeA": false,
  "chapterCost": 10,
  "freeChapters": {},
  "storyUnlockPrice": 150,
