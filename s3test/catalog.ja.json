@@ -1,0 +1,42 @@
+[
+ {
+  "id": "s3test-sixth",
+  "title": "六番目の贈り物",
+  "tag": "密室スリラー",
+  "style": "クリスマス・スリラー・百貨店",
+  "section": "アメリカ",
+  "about": "クリスマスイブの百貨店。朝まで閉じ込められた五人と、消えた子への六番目の贈り物",
+  "cover": "c01-window-eva",
+  "mood": "thriller",
+  "look": "xmas",
+  "trailer": [
+   "c01:3",
+   "c01:5",
+   "c01:9",
+   "c02:8",
+   "c02:22"
+  ],
+  "ask": "六番目の贈り物、開ける？",
+  "path": "sixth/"
+ },
+ {
+  "id": "s3test-window",
+  "title": "24番の窓",
+  "tag": "サイコスリラー",
+  "style": "ヨーロピアン・ノワール・旧市街",
+  "section": "ヨーロッパ",
+  "about": "向かいの市庁舎はアドベントカレンダー。24番の窓に、誰も信じないものが現れる",
+  "cover": "win-c01-lina-window",
+  "mood": "thriller",
+  "look": "noir",
+  "trailer": [
+   "c01:3",
+   "c01:5",
+   "c01:11",
+   "c03:6",
+   "c05:3"
+  ],
+  "ask": "マルクを信じる？",
+  "path": "window/"
+ }
+]

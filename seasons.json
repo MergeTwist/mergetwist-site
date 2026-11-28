@@ -116,6 +116,103 @@
      }
     }
    ]
+  },
+  {
+   "id": "s2test",
+   "catalog": "s2test/catalog",
+   "title": "Season 2 (test)",
+   "about": "Copies of season 1 stories — a test of adding a season without a release.",
+   "stories": [
+    {
+     "id": "s2test-signal",
+     "path": "signal/",
+     "size": 8923882,
+     "sha256": "0861e43d970197356d72c2ada75238fe9c223cf176d460e14f4f5a579b38ba4d",
+     "urls": [
+      "https://cdn.mergetwist.com/s1/signal.aar?v=0861e43d9701"
+     ],
+     "rest": {
+      "size": 39685667,
+      "sha256": "9d68b6a65a956b974441c4c07965f3ad0e8dba8de257516306498331a9307308",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/signal-rest.aar?v=9d68b6a65a95"
+      ]
+     }
+    },
+    {
+     "id": "s2test-seam",
+     "path": "seam/",
+     "size": 9402843,
+     "sha256": "1ab909d849b943287efe0d834066d3ac107794c0a65b42aa011ad3dd04a7d5c2",
+     "urls": [
+      "https://cdn.mergetwist.com/s1/seam.aar?v=1ab909d849b9"
+     ],
+     "rest": {
+      "size": 41551718,
+      "sha256": "727db66ae12a68403df4b83a320dda88ff14128b49f6e5dc7abce7643339ea49",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/seam-rest.aar?v=727db66ae12a"
+      ]
+     }
+    },
+    {
+     "id": "s2test-rice",
+     "path": "rice/",
+     "size": 8081365,
+     "sha256": "423dbce032eed22a1033fbcb6590a9e9ba2bedfb9783e93a6613a4288add2964",
+     "urls": [
+      "https://cdn.mergetwist.com/s1/rice.aar?v=423dbce032ee"
+     ],
+     "rest": {
+      "size": 36367042,
+      "sha256": "1ce338989781755191dccba072dec03184a50a69f4319c52153a823cdc232cd4",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/rice-rest.aar?v=1ce338989781"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "s3test",
+   "catalog": "s3test/catalog",
+   "title": "Season 3 (test)",
+   "about": "Opens later — a test of the “Soon” block.",
+   "stories": [
+    {
+     "id": "s3test-sixth",
+     "path": "sixth/",
+     "size": 9041274,
+     "sha256": "24ae6516051da6f68e9842d5ec642a422d3f510fe765280e4dbafe7005cdc560",
+     "urls": [
+      "https://cdn.mergetwist.com/s1/sixth.aar?v=24ae6516051d"
+     ],
+     "rest": {
+      "size": 33282334,
+      "sha256": "991cece61e1fe34e59d1e437364de69ae26165777884c585164c85beda4f810a",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/sixth-rest.aar?v=991cece61e1f"
+      ]
+     }
+    },
+    {
+     "id": "s3test-window",
+     "path": "window/",
+     "size": 9560922,
+     "sha256": "4b25b87bf196e1bdda8dc93f8af8bb06a9be6b55121b173fa489d9e034f6bab6",
+     "urls": [
+      "https://cdn.mergetwist.com/s1/window.aar?v=4b25b87bf196"
+     ],
+     "rest": {
+      "size": 31677140,
+      "sha256": "525a7731bdeb252dc8614202608ba57f1295ea9b9c2b542d9469067421daa235",
+      "urls": [
+       "https://cdn.mergetwist.com/s1/window-rest.aar?v=525a7731bdeb"
+      ]
+     }
+    }
+   ],
+   "opens": "2027-03-01T20:47"
   }
  ]
 }

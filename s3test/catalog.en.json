@@ -1,0 +1,42 @@
+[
+ {
+  "id": "s3test-sixth",
+  "title": "The Sixth Gift",
+  "tag": "Locked-room thriller",
+  "style": "Christmas thriller · department store",
+  "section": "America",
+  "about": "Christmas Eve in a department store: five locked in till morning, a sixth gift for the missing",
+  "cover": "c01-window-eva",
+  "mood": "thriller",
+  "look": "xmas",
+  "trailer": [
+   "c01:3",
+   "c01:5",
+   "c01:9",
+   "c02:8",
+   "c02:22"
+  ],
+  "ask": "Would you open the sixth gift?",
+  "path": "sixth/"
+ },
+ {
+  "id": "s3test-window",
+  "title": "Window 24",
+  "tag": "Psychological thriller",
+  "style": "European noir · old town",
+  "section": "Europe",
+  "about": "The town hall is an advent calendar. Window 24 will show what no one will believe",
+  "cover": "win-c01-lina-window",
+  "mood": "thriller",
+  "look": "noir",
+  "trailer": [
+   "c01:3",
+   "c01:5",
+   "c01:11",
+   "c03:6",
+   "c05:3"
+  ],
+  "ask": "Do you believe Mark?",
+  "path": "window/"
+ }
+]
