@@ -2,14 +2,24 @@
 (() => {
   const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const ru = () => document.documentElement.lang === 'ru';
+  // Языки — как в приложении: английский, японский, корейский, русский; суффикс — для полей историй (titleJa).
+  const lang = () => ['ru', 'ja', 'ko'].includes(document.documentElement.lang) ? document.documentElement.lang : 'en';
+  const suf = () => ({ en: 'En', ru: 'Ru', ja: 'Ja', ko: 'Ko' })[lang()];
+  const T = {
+    empty: { en: 'Empty', ru: 'Пусто', ja: '空き', ko: '빈 칸' },
+    remembers: { en: 'The story remembers: ', ru: 'История запомнит: ', ja: '物語は覚えている：', ko: '이야기가 기억해요: ' },
+  };
 
-  // Язык: кнопка в шапке, выбор помнится в браузере.
-  $$('.lang').forEach(b => b.addEventListener('click', () => {
-    document.documentElement.lang = ru() ? 'en' : 'ru';
-    try { localStorage.setItem('lang', document.documentElement.lang) } catch (e) {}
-    caption && caption();
-  }));
+  // Язык: список в шапке, выбор помнится в браузере.
+  $$('.lang').forEach(s => {
+    s.value = lang();
+    s.addEventListener('change', () => {
+      document.documentElement.lang = s.value;
+      $$('.lang').forEach(o => o.value = s.value);
+      try { localStorage.setItem('lang', s.value) } catch (e) {}
+      caption && caption();
+    });
+  });
 
   const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && (e.target.classList.add('in'), io.unobserve(e.target))), { rootMargin: '0px 0px -10% 0px' });
   $$('.reveal').forEach(el => io.observe(el));
@@ -93,7 +103,7 @@
   // Первый экран: мини-доска merge. Собрал цепочку — открылась сцена истории и её выбор («история запомнит»).
   const R = window.ROUNDS || [], demo = $('.demo');
   if (demo && R.length) {
-    const L = () => ru() ? 'ru' : 'en', board = $('.board', demo), bar = $('.chainbar', demo), scene = $('.scene', demo), bg = $('.hero-bg');
+    const L = lang, board = $('.board', demo), bar = $('.chainbar', demo), scene = $('.scene', demo), bg = $('.hero-bg');
     const sceneDepth = new Depth($('[data-scene]', demo));
     const cells = Array.from({ length: 16 }, (_, k) => { const b = document.createElement('button'); b.type = 'button'; b.className = 'cell'; b.addEventListener('click', () => tap(k)); board.appendChild(b); return b });
     let r = 0, grid, sel = null;
@@ -102,7 +112,7 @@
       grid.forEach((lv, k) => {
         const c = cells[k]; c.classList.toggle('sel', sel === k); c.classList.toggle('pop', pop === k);
         c.innerHTML = lv < 0 ? '' : `<img src="${icon(lv)}" alt="">`;
-        c.setAttribute('aria-label', lv < 0 ? (ru() ? 'Пусто' : 'Empty') : R[r].names[L()][lv]);
+        c.setAttribute('aria-label', lv < 0 ? T.empty[L()] : R[r].names[L()][lv]);
       });
       const best = Math.max(...grid);
       $$('img', bar).forEach((im, lv) => im.classList.toggle('got', lv <= best));
@@ -130,7 +140,7 @@
       const opts = $('.scene-opts', demo); opts.innerHTML = '';
       q.options.forEach(o => {
         const b = document.createElement('button'); b.type = 'button'; b.textContent = o[l].text;
-        b.addEventListener('click', () => { $('.scene-memo', demo).textContent = (ru() ? 'История запомнит: ' : 'The story remembers: ') + (o[l].memo || o[l].text); scene.classList.add('chosen') });
+        b.addEventListener('click', () => { $('.scene-memo', demo).textContent = T.remembers[l] + (o[l].memo || o[l].text); scene.classList.add('chosen') });
         opts.appendChild(b);
       });
       scene.hidden = false;
@@ -180,9 +190,9 @@
       clearTimeout(timer); k = n; viewer.classList.toggle('done', k >= story.trailer.length);
       $$('i b', bars).forEach((b, j) => { b.style.transition = 'none'; b.style.width = j < k ? '100%' : '0' });
       if (k >= story.trailer.length) return;
-      const f = story.trailer[k], text = ru() ? f.ru : f.en;
+      const f = story.trailer[k], text = f[lang()];
       depth.show(f.img);
-      who.textContent = ru() ? f.whoRu : f.whoEn; line.innerHTML = words(text);
+      who.textContent = f['who' + suf()]; line.innerHTML = words(text);
       requestAnimationFrame(() => requestAnimationFrame(() => $$('span', line).forEach(s => s.classList.add('on'))));
       dur = Math.max(3800, text.split(' ').length * 330 + 1800);
       const b = $$('i b', bars)[k]; requestAnimationFrame(() => { b.style.transition = `width ${dur}ms linear`; b.style.width = '100%' });
@@ -191,8 +201,8 @@
     const open = id => {
       story = S.find(s => s.id === id); if (!story) return;
       bars.innerHTML = story.trailer.map(() => '<i><b></b></i>').join('');
-      $('.end h3', viewer).textContent = ru() ? story.titleRu : story.titleEn;
-      $('.end .ask', viewer).textContent = ru() ? story.askRu : story.askEn;
+      $('.end h3', viewer).textContent = story['title' + suf()];
+      $('.end .ask', viewer).textContent = story['ask' + suf()];
       depth.reset();
       viewer.hidden = false; document.body.style.overflow = 'hidden'; step(0); $('.close', viewer).focus();
     };

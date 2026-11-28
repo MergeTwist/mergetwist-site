@@ -5,7 +5,9 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 body::after{content:"";position:fixed;inset:-50%;pointer-events:none;z-index:50;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");animation:grain 1s steps(4) infinite}
 @keyframes grain{0%{transform:translate(0,0)}25%{transform:translate(-3%,2%)}50%{transform:translate(2%,-3%)}75%{transform:translate(-2%,-1%)}}
-html[lang=ru] .en,html:not([lang=ru]) .ru{display:none!important}
+html:not([lang=ru]) .ru,html:not([lang=ja]) .ja,html:not([lang=ko]) .ko,html:is([lang=ru],[lang=ja],[lang=ko]) .en{display:none!important}
+/* Японский и корейский: заголовки ровными строками, корейский переносится по словам, японский — без висящих «ー» и знаков. */
+html[lang=ja] :is(h1,h2,h3),html[lang=ko] :is(h1,h2,h3){text-wrap:balance}html[lang=ko]{word-break:keep-all}html[lang=ja]{line-break:strict}
 a{color:var(--gold-l);text-decoration:none}a:hover{text-decoration:underline}
 h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:.01em;line-height:1.08;margin:0}
 .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
@@ -16,7 +18,8 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:.01em;line-heig
 .top{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:18px 28px;padding-top:max(18px,env(safe-area-inset-top));
 background:linear-gradient(#0b0e0cd9,#0b0e0c00);backdrop-filter:blur(2px)}
 .top nav{display:flex;gap:26px;align-items:center}.top nav a{color:var(--ink);font-size:14px;opacity:.8}.top nav a:hover{opacity:1;text-decoration:none}
-.lang{background:none;border:1px solid #ffffff38;color:var(--ink);border-radius:20px;padding:5px 12px;font:600 12px var(--sans);letter-spacing:.1em;cursor:pointer}
+.lang{appearance:none;-webkit-appearance:none;background:none;border:1px solid #ffffff38;color:var(--ink);border-radius:20px;padding:5px 12px;font:600 12px var(--sans);letter-spacing:.1em;cursor:pointer;text-align:center}
+.lang option{background:#0b0e0c;color:var(--ink)}
 .lang:hover{border-color:var(--gold);color:var(--gold)}
 
 /* первый экран */
