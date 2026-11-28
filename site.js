@@ -71,6 +71,11 @@
       back.c.style.zIndex = 1; old.style.zIndex = 0; back.c.style.opacity = 1; this.front = 1 - this.front;
       clearTimeout(this.t); this.t = setTimeout(() => { old.style.transition = 'none'; old.style.opacity = 0; requestAnimationFrame(() => old.style.transition = '') }, 1200);
     }
+    // Другая история в том же окне: кадры прошлой не показывать, пока грузится первый кадр новой; недогруженные — отменить.
+    reset() {
+      this.seq++; this.shown = false; clearTimeout(this.t);
+      this.layers.forEach(l => { l.ready = false; l.c.style.transition = 'none'; l.c.style.opacity = 0; requestAnimationFrame(() => l.c.style.transition = '') });
+    }
   }
   Depth.all = [];
   let t0 = performance.now(), ox = 0, oy = 0;
@@ -188,9 +193,10 @@
       bars.innerHTML = story.trailer.map(() => '<i><b></b></i>').join('');
       $('.end h3', viewer).textContent = ru() ? story.titleRu : story.titleEn;
       $('.end .ask', viewer).textContent = ru() ? story.askRu : story.askEn;
+      depth.reset();
       viewer.hidden = false; document.body.style.overflow = 'hidden'; step(0); $('.close', viewer).focus();
     };
-    const close = () => { clearTimeout(timer); viewer.hidden = true; document.body.style.overflow = '' };
+    const close = () => { clearTimeout(timer); depth.reset(); viewer.hidden = true; document.body.style.overflow = '' };
     $$('[data-story]').forEach(b => b.addEventListener('click', () => open(b.dataset.story)));
     $('.next', viewer).addEventListener('click', () => step(k + 1));
     $('.prev', viewer).addEventListener('click', () => step(Math.max(0, k - 1)));
