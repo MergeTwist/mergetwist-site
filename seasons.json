@@ -124,67 +124,6 @@
    }
   },
   {
-   "id": "s2test",
-   "catalog": "s2test/catalog",
-   "about": "Copies of season 1 stories — a test of adding a season without a release.",
-   "stories": [
-    {
-     "id": "s2test-signal",
-     "path": "signal/",
-     "size": 8923882,
-     "sha256": "0861e43d970197356d72c2ada75238fe9c223cf176d460e14f4f5a579b38ba4d",
-     "urls": [
-      "https://cdn.mergetwist.com/s1/signal.aar?v=0861e43d9701"
-     ],
-     "rest": {
-      "size": 39685667,
-      "sha256": "9d68b6a65a956b974441c4c07965f3ad0e8dba8de257516306498331a9307308",
-      "urls": [
-       "https://cdn.mergetwist.com/s1/signal-rest.aar?v=9d68b6a65a95"
-      ]
-     }
-    },
-    {
-     "id": "s2test-seam",
-     "path": "seam/",
-     "size": 9402843,
-     "sha256": "1ab909d849b943287efe0d834066d3ac107794c0a65b42aa011ad3dd04a7d5c2",
-     "urls": [
-      "https://cdn.mergetwist.com/s1/seam.aar?v=1ab909d849b9"
-     ],
-     "rest": {
-      "size": 41551718,
-      "sha256": "727db66ae12a68403df4b83a320dda88ff14128b49f6e5dc7abce7643339ea49",
-      "urls": [
-       "https://cdn.mergetwist.com/s1/seam-rest.aar?v=727db66ae12a"
-      ]
-     }
-    },
-    {
-     "id": "s2test-rice",
-     "path": "rice/",
-     "size": 8081365,
-     "sha256": "423dbce032eed22a1033fbcb6590a9e9ba2bedfb9783e93a6613a4288add2964",
-     "urls": [
-      "https://cdn.mergetwist.com/s1/rice.aar?v=423dbce032ee"
-     ],
-     "rest": {
-      "size": 36367042,
-      "sha256": "1ce338989781755191dccba072dec03184a50a69f4319c52153a823cdc232cd4",
-      "urls": [
-       "https://cdn.mergetwist.com/s1/rice-rest.aar?v=1ce338989781"
-      ]
-     }
-    }
-   ],
-   "titles": {
-    "en": "Warm Light (test)",
-    "ru": "Тёплый свет (тест)",
-    "ja": "あたたかな灯り（テスト）",
-    "ko": "따뜻한 불빛 (테스트)"
-   }
-  },
-  {
    "id": "s3test",
    "catalog": "s3test/catalog",
    "about": "Opens later — a test of the “Soon” block.",
