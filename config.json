@@ -2315,6 +2315,9 @@
   80
  ],
  "dailyCount": 2,
+ "standingReward": {
+  "energy": 2
+ },
  "dailyReward": {
   "crystals": 5
  },
