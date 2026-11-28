@@ -70,16 +70,16 @@
     {
      "id": "seam",
      "path": "seam/",
-     "size": 9401890,
-     "sha256": "ee22c8b2940f64f5d7c09d833da4c518c2aad894f41a882d0562e7d8e1f24954",
+     "size": 9402843,
+     "sha256": "1ab909d849b943287efe0d834066d3ac107794c0a65b42aa011ad3dd04a7d5c2",
      "urls": [
-      "https://cdn.mergetwist.com/s1/seam.aar?v=ee22c8b2940f"
+      "https://cdn.mergetwist.com/s1/seam.aar?v=1ab909d849b9"
      ],
      "rest": {
-      "size": 41545587,
-      "sha256": "66194c63d891341a2ddbd772239e07cd9d00dad9aba45401b5e6dd22a0cec672",
+      "size": 41551718,
+      "sha256": "727db66ae12a68403df4b83a320dda88ff14128b49f6e5dc7abce7643339ea49",
       "urls": [
-       "https://cdn.mergetwist.com/s1/seam-rest.aar?v=66194c63d891"
+       "https://cdn.mergetwist.com/s1/seam-rest.aar?v=727db66ae12a"
       ]
      }
     },
